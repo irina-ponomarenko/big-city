@@ -31,7 +31,7 @@
             "posterWidth": 940, //第一帧宽度 --> 当前显示
             "posterHeight": 570, //第一帧高度 --> 当前显示
             "scale": 0.8, //记录显示比例关系	
-            "speed": 1000,
+            "speed": 30000,
             "autoPlay": true,
             "delay": 2000,//自动播放间隔时间
             "verticalAlign": "bottom" //top bottom middle
