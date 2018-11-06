@@ -27,9 +27,9 @@
         //默认配置参数
         this.setting = {
             "width": 1000,//幻灯片总宽
-            "height": 270,//幻灯片总高
-            "posterWidth": 640, //第一帧宽度 --> 当前显示
-            "posterHeight": 270, //第一帧高度 --> 当前显示
+            "height": 570,//幻灯片总高
+            "posterWidth": 940, //第一帧宽度 --> 当前显示
+            "posterHeight": 570, //第一帧高度 --> 当前显示
             "scale": 0.8, //记录显示比例关系	
             "speed": 1000,
             "autoPlay": true,
