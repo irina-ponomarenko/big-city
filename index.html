@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Big city</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="bootstrap_4.1.3/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="styles/fonts/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet"/>
+    <link href="styles/css/style.css" rel="stylesheet"/>
+    <link href="styles/css/response.css" rel="stylesheet"/>
+</head>
+<body class="common-home">
+
+<!----------------------header-start---------------------->
+
+<header class="header">
+    <div class="container">
+        <div class="wrapper-header-left-content">
+            <div class="header__logo">
+                <a href="" class="flex a-i-c">
+                    <img src="img/logo-img.png" alt="logo"/>
+                </a>
+            </div>
+            <div class="header__buttons">
+                <a href="" class="shows-btn">
+                    <div class="header__buttons__item header__buttons__item__schedule"></div>
+                </a>
+                <a href="" class="top-btn">
+                    <div class="header__buttons__item header__buttons__item__top"></div>
+                </a>
+            </div>
+            <div id="search" class="input-group topsearchblock">
+                <input type="text" name="search" value="" placeholder="Поиск" class="form-control input-lg"/>
+                <span class="input-searchicon">
+                <button type="button" class="searchicon"></button>
+            </span>
+            </div>
+        </div>
+        <div class="lang">
+            <div class="pull-left">
+                <form action="" method="post" enctype="multipart/form-data" id="form-language">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary dropdown-toggle langbtn" data-toggle="dropdown" aria-expanded="false">
+                            <span class="hidden-xs hidden-sm hidden-md">Язык</span>
+                        </button>
+                        <ul class="dropdown-menu langmenu">
+                            <li>
+                                <button type="button" class="btn btn-primary language-select" name="en-gb">English</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-primary language-select" name="en-gb">Русский</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <input type="hidden" name="code" value=""/>
+                    <input type="hidden" name="redirect" value=""/>
+                </form>
+            </div>
+            <div class="logout-block">
+                <div class="bell-container">
+                    <button type="button" class="bell"></button>
+                    <div class="round-blue">
+                        <span>3</span>
+                    </div>
+                </div>
+                <div class="dropdown burger-menu-wrapper">
+                    <button class="btn btn-secondary dropdown-toggle burger-menu" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropdown-menu drop-down-burger" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                    </div>
+                </div>
+                <div class="header__avatar__name">
+                    <div class="btn-group logout-user">
+                        <button type="button" class="btn btn-secondary dropdown-toggle user-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--------------------------header-end--------------------->
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="bootstrap_4.1.3/js/bootstrap.bundle.js"></script>
+<script src="bootstrap_4.1.3/js/bootstrap.min.js"></script>
+<script src="js/Carousel.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
