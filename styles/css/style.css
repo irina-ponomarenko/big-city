@@ -1075,8 +1075,91 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
     justify-content: space-between;
     padding: 0 15px;
 }
-.block-typing-message{
-
+.video-block{
+    max-width: 1070px;
+    position: relative;
+}
+.video-block__img{
+    background: url("../../img/bg-block.jpg") no-repeat;
+    width: 100%;
+    height: 202px;
+}
+.avatarplace{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    border: 6px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.avatarplace img{
+    max-width: 160px;
+}
+.postsicon {
+    background: url("../../img/post-icon.png");
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.statisticicon {
+    background: url("../../img/statistik-icon.png");
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.advertisers {
+    background: url("../../img/advertisers-icon.png");
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.sendmesicon {
+    background: url("../../img/messages-icon.png");
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.pagemenulia{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    max-width: 380px;
+}
+.navigation__item{
+    margin-right: 15px;
+}
+.navigation__item:last-child{
+    margin-right: 0;
+}
+.menuusername{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuusername h2{
+    font-size: 24px;
+    color: #494c5d;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.menuusername span{
+    font-size: 16px;
+    font-weight: normal;
+    color: #494c5d;
+    opacity: 0.8;
+}
+.pagemenu{
+    background-color: #ffffff;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .typing-btn{
     width: 35px;
@@ -1120,4 +1203,25 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
     opacity: 0.5;
     margin-right: 10px;
     cursor: pointer;
+}
+.card-aside{
+    max-width: 334px;
+    width: 100%;
+}
+.card-aside img{
+    max-width: 334px;
+}
+#column-right .columnline {
+    width: 98%;
+}
+.content-justify{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card-aside .playicon{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
 }
