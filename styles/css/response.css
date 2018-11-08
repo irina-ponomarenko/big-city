@@ -381,5 +381,12 @@
     .response-carousel,
     .poster-item-response{
         max-width: 100%  !important;
+        width: 100%;
+    }
+    .follow-item{
+        margin-right: 15px;
+    }
+    .follow-item:last-child{
+        margin-right: 0;
     }
 }
