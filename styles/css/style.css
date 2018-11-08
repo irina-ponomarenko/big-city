@@ -969,6 +969,10 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
     font-size: 20px;
     margin: 0 auto;
 }
+.social-link:hover{
+    transition: .3s;
+    opacity: 0.8;
+}
 .chat-container{
     min-width: 250px;
     width: 100%;
@@ -1076,7 +1080,7 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
     border: none;
     background: transparent;
     padding: 20px;
-    width: 80%;
+    width: 100%;
     outline: none;
     color: #ffffff;
 }
