@@ -903,6 +903,7 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
 .video-container{
     position: relative;
     height: calc(100vh - 58px);
+    margin-top: 20px;
 }
 .big-video{
     max-width: 100%;
