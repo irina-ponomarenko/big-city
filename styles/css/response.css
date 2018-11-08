@@ -146,6 +146,10 @@
     .chat-container {
         max-width: 100%;
     }
+    .container-img-card .film-item {
+        max-width: 342px;
+        border-radius: 10px;
+    }
 
 }
 @media only screen and (max-width: 745px) and (min-width: 360px) {
@@ -167,6 +171,19 @@
     .wrapper-header-left-content{
         margin-right: 20px;
         margin-left: 20px;
+    }
+    .container-img-card .film-item {
+        max-width: 300px;
+        border-radius: 10px;
+    }
+    .showssearch {
+        max-width: 300px;
+    }
+    .dsblock {
+        display: flex;
+        align-items: center;
+        margin-top: 13px;
+        max-width: 300px;
     }
 
 }
@@ -287,6 +304,22 @@
         border-radius: 10px;
     }
     .columnline .showssearch-list {
+        justify-content: center;
+    }
+    .showssearch {
+        max-width: 100%;
+    }
+    .container-img-card .film-item {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    .dsblock {
+        max-width: 100%;
+    }
+    .showssearch-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
