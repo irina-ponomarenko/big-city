@@ -1,11 +1,4 @@
 @media only screen and (max-width: 1560px) and (min-width: 360px) {
-    .video-container {
-        position: relative;
-        max-width: 1140px;
-    }
-    .video-container img {
-        max-width: 1140px;
-    }
     .mbnopadding,
     .bottom-content{
         max-width: 960px;
@@ -58,15 +51,6 @@
     }
     .topsearchblock {
         max-width: 350px;
-    }
-    .video-container {
-        max-width: 900px;
-    }
-    .video-container img {
-        max-width: 900px;
-    }
-    .chat-container{
-        max-width: 370px;
     }
     .body-chat {
         min-height: 150px;
@@ -136,16 +120,6 @@
         max-width: 100%;
         margin-right: 0;
     }
-    .video-container img {
-        max-width: 700px;
-    }
-    .chat-container{
-        position: inherit;
-        top: 0;
-    }
-    .chat-container {
-        max-width: 100%;
-    }
     .container-img-card .film-item {
         max-width: 342px;
         border-radius: 10px;
@@ -187,15 +161,6 @@
     }
 
 }
-@media only screen and (max-width: 702px) and (min-width: 360px) {
-    .video-container {
-        max-width: 600px;
-    }
-    .video-container img {
-        max-width: 600px;
-    }
-
-}
 @media only screen and (max-width: 650px) and (min-width: 360px) {
     .bottom-content{
         flex-direction: column;
@@ -227,12 +192,6 @@
     }
 }
 @media only screen and (max-width: 623px) and (min-width: 360px) {
-    .video-container {
-        max-width: 500px;
-    }
-    .video-container img {
-        max-width: 500px;
-    }
     .pagemenulia {
         top: 43%;
     }
@@ -328,13 +287,6 @@
     .pagemenulia{
         max-width: 300px;
     }
-    .video-container {
-        max-width: 400px;
-    }
-    .video-container img {
-        max-width: 400px;
-    }
-
 }
 @media only screen and (max-width: 425px) and (min-width: 360px) {
     .pagemenulia{
@@ -379,10 +331,8 @@
         align-items: center;
         margin-top: 20px;
     }
-}
-@media only screen and (max-width: 400px) and (min-width: 360px) {
-    .video-container img {
-        max-width: 360px;
+    .btn-chat-container button {
+        width: 35px;
+        height: 35px;
     }
-
 }
