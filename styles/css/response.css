@@ -380,7 +380,8 @@
     }
 }
 @media only screen and (max-width: 375px) and (min-width: 360px) {
-    .response-carousel{
+    .response-carousel,
+    .poster-item-response{
         max-width: 375px  !important;
     }
 }
