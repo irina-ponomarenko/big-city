@@ -389,6 +389,19 @@
     .follow-item:last-child{
         margin-right: 0;
     }
+    .user-title {
+        font-size: 16px;
+        max-width: 100px;
+    }
+    .social-link {
+        width: 40px;
+        height: 40px;
+    }
+    .body-chat {
+        min-height: 150px;
+        max-height: 180px;
+        padding: 10px;
+    }
 }
 @media only screen and (max-width: 375px) and (min-width: 360px) {
     .add-span{
