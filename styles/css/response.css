@@ -78,6 +78,25 @@
     .video-block__img {
         height: 170px;
     }
+    .first-carousel{
+        display: none;
+    }
+    .response-carousel{
+        display: block;
+    }
+    .slbottomblock{
+        position: inherit;
+    }
+    .poster-item-response.playicon {
+        top: -200%;
+    }
+    .poster-item-response{
+        max-width: 1140px;
+        height: auto;
+    }
+    .response-carousel .carousel-indicators{
+        display: none;
+    }
 }
 @media only screen and (max-width: 1070px) and (min-width: 360px) {
     #search .input-lg {
@@ -98,6 +117,15 @@
     .mbnopadding, .bottom-content {
         max-width: 650px;
         margin-right: 0;
+    }
+}
+@media only screen and (max-width: 933px) and (min-width: 360px) {
+    .header-section{
+        flex-direction: column;
+    }
+    .blue-title{
+        align-self: flex-start;
+        margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 922px) and (min-width: 360px) {
@@ -226,8 +254,7 @@
         max-width: 100%;
     }
     .header__buttons {
-        width: 100%;
-        margin-bottom: 20px;
+        display: none;
     }
     .header__logo{
         margin: 20px 0;
@@ -287,6 +314,19 @@
     .pagemenulia{
         max-width: 300px;
     }
+    .centerform{
+        flex-direction: column;
+    }
+    #input-showsearch .input-lg,
+    .search-width{
+        max-width: 100%;
+    }
+    .search-width{
+        margin-bottom: 20px;
+    }
+    .blue-title {
+        align-self: center;
+    }
 }
 @media only screen and (max-width: 425px) and (min-width: 360px) {
     .pagemenulia{
@@ -334,5 +374,10 @@
     .btn-chat-container button {
         width: 35px;
         height: 35px;
+    }
+    .response-carousel .carousel-inner {
+        position: relative;
+        width: 96%;
+        overflow: hidden;
     }
 }

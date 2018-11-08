@@ -890,6 +890,13 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
 .poster-item .playicon{
    top: -200%;
 }
+.poster-item{
+    max-width: 1140px;
+    height: auto;
+}
+.response-carousel{
+    display: none;
+}
 .padding-top-30{
     padding-top: 30px;
 }
