@@ -390,3 +390,24 @@
         margin-right: 0;
     }
 }
+@media only screen and (max-width: 375px) and (min-width: 360px) {
+    .add-span{
+        display: none;
+    }
+    .add-new-follow{
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        width: 34px;
+        height: 34px;
+        border-radius: 10px;
+        border-right: none;
+    }
+    .container-btn-follow-add{
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        width: 34px;
+        display: flex;
+        align-items: center;
+    }
+}
