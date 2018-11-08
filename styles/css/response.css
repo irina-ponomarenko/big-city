@@ -401,6 +401,21 @@
         max-height: 150px;
         padding: 10px;
     }
+    .user-img {
+        width: 35px;
+        height: 35px;
+    }
+    .user-img img {
+        max-width: 31px !important;
+        width: 100%;
+    }
+    .header-video-play{
+        padding: 10px;
+    }
+    .border-color-user {
+        width: 40px;
+        height: 40px;
+    }
 }
 @media only screen and (max-width: 375px) and (min-width: 360px) {
     .add-span{
