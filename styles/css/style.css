@@ -504,6 +504,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.big-video-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     height: calc(100vh - 60px);
 }
 .poster-width{
