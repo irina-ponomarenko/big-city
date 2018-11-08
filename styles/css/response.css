@@ -317,6 +317,9 @@
     .centerform{
         flex-direction: column;
     }
+    .centerformblock:nth-child(2){
+        margin-bottom: 10px;
+    }
     #input-showsearch .input-lg,
     .search-width{
         max-width: 100%;
