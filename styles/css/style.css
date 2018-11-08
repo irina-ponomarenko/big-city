@@ -889,10 +889,10 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
 }
 .video-container{
     position: relative;
-    max-width: 1140px;
+    max-width: 1700px;
 }
 .video-container img{
-    max-width: 1140px;
+    max-width: 1700px;
 }
 .header-video-play{
     position: absolute;
@@ -1240,6 +1240,7 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
     height: 15px;
     border: none;
     cursor: pointer;
+    display: block;
 }
 .list-option-tab{
     display: flex;
@@ -1306,7 +1307,7 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
     background-color: #fff;
     padding: 30px;
     margin-left: 30px;
-    max-width: 750px;
+    max-width: 100%;
     width: 100%;
 }
 .tab-content{
@@ -1516,6 +1517,48 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
 .small-card-video:nth-child(2n){
     margin-right: 0;
 }
+.small-card-video .playicon {
+    width: 70px;
+    height: 70px;
+    top: 28%;
+}
+.small-card-video .svdata{
+    padding: 15px 0 17px;
+}
 .mbnopadding{
     max-width: 1070px;
 }
+.small-card-video .item-video {
+    margin-right: 15px;
+}
+.small-card-video .video-active {
+    background: url(../../img/icon-camera-card.png) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 37px;
+}
+.small-card-video .icon-video-span {
+    background: url(../../img/video-icon.png) no-repeat center;
+    width: 18px;
+    height: 10px;
+}
+.small-card-video .header-video{
+    padding: 10px 11px 0;
+}
+
+/*---------------scroll------------------*/
+
+
+::-webkit-scrollbar {
+    width: 1em;
+    height: 1em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #33518d;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(1,33,97, 0.5);
+}
+
