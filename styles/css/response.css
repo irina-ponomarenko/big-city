@@ -375,9 +375,9 @@
         width: 35px;
         height: 35px;
     }
-    .response-carousel .carousel-inner {
-        position: relative;
-        width: 96%;
-        overflow: hidden;
+}
+@media only screen and (max-width: 375px) and (min-width: 360px) {
+    .poster-item-response{
+        max-width: 375px;
     }
 }
