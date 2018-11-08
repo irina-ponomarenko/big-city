@@ -1307,7 +1307,7 @@ select.form-control, textarea.form-control, input.form-control[type="text"], inp
     background-color: #fff;
     padding: 30px;
     margin-left: 30px;
-    max-width: 100%;
+    max-width: calc(100% - 35px);
     width: 100%;
 }
 .tab-content{
